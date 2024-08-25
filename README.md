@@ -16,3 +16,24 @@ View Results: The game will display the computer’s choice and the result of th
 
 Project 2
 
+Creating Payment receipt using python
+
+Payment Receipt Generator
+This Python project creates a formatted payment receipt PDF using the reportlab library. The receipt includes details such as date, subscription type, and pricing, and is styled for clarity and professionalism.
+
+Features
+Generate PDF Receipts: Creates a PDF file with payment receipt details.
+Customizable Styles: Apply various styles to the table and title for a professional appearance.
+Easy Integration: Simple script that can be integrated or adapted for various use cases.
+
+Requirements
+Python 3.x
+reportlab library
+
+Code Overview
+Data Definition: The DATA list contains the receipt details to be included in the PDF.
+Document Template: Uses SimpleDocTemplate to define the PDF layout.
+Styles: TableStyle and Paragraph are used to style the table and title.
+Table Creation: The Table class formats and displays the receipt data.
+PDF Generation: The pdf.build() method generates and saves the PDF document.
+
